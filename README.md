@@ -3,6 +3,7 @@
 git clone --depth 1 https://github.com/purescript-templates/react-basic-hooks.git myApp
 cd myApp
 npm install -g purescript spago parcel
+npm install
 spago build
 parcel src/index.html --open
 ```
